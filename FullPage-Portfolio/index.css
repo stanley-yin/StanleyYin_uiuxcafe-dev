@@ -91,4 +91,10 @@ img {
     /* line-height: 500px; */
     transform: translate(0,0);
   }
+
+  .number {
+    position: absolute;
+    top: 0px;
+    right: 12px;
+  }
 }
