@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .card {
+            width: 410px;
+            position: relative;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 10px 20px -15px;
+        }
+
+        .card h5,
+        h6 {
+            color: gray;
+
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .heart {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: white;
+            font-size: 1.3rem;
+        }
+
+        .card-text {
+            width: 100%;
+            padding: 15px 20px;
+        }
+
+
+        .facility {
+            border-top: 2px solid rgb(231, 228, 228);
+            border-bottom: 2px solid rgb(231, 228, 228);
+            font-size: 1.3rem;
+        }
+
+        .facility span {
+            margin-left: 5px;
+        }
+
+        .bold-black {
+            color: black;
+            font-weight: 700;
+        }
+
+        .contect-info {
+            background-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- img -->
+            <div class="card-img">
+                <img src="./images/house.jpg" alt="">
+            </div>
+
+            <!-- 小愛心 -->
+            <div class="heart">
+                <i class="far fa-heart"></i>
+            </div>
+
+
+            <!-- 價格 -->
+            <div class="card-text">
+                <h5>DETACHED HOUSE．5Y OLD</h5>
+                <h1 class="bold-black">$ 750,000</h1>
+                <h5>742 Evergreen Terrace</h5>
+            </div>
+            <!-- 設備 -->
+            <div class="card-text facility">
+                <div class="row">
+                    <div class="col">
+                        <i class="fas fa-bed"></i>
+                        <span><span class="bold-black">3</span>&nbspBedrooms</span>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-bath"></i>
+                        <span><span class="bold-black">2</span>&nbspBathrooms</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 聯絡人 -->
+            <div class="card-text contect-info">
+                <h6 class="mb-3">REALTOR</h6>
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fas fa-user-circle fa-3x"></i>
+                    </div>
+                    <div class="col-10">
+                        <h5><span class="bold-black">Tiffany Heffner</span></h5>
+                        <h6>(555) 555-4321</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
